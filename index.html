@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>awnserly — Instant answers. Zero clutter.</title>
+  <title>awnserly — Every call answered. Every customer captured.</title>
   <style>
     :root{
       --bg:#1b2a55;      /* deep navy */
@@ -16,6 +16,8 @@
     html,body{margin:0;padding:0;font-family:Inter,system-ui,Arial,sans-serif;color:var(--text);background:var(--bg)}
     a{color:inherit;text-decoration:none}
     .wrap{max-width:980px;margin:0 auto;padding:24px}
+
+    /* HERO */
     .hero{
       min-height:88vh; display:flex; align-items:center;
       background:
@@ -24,23 +26,30 @@
         linear-gradient(180deg, #1b2a55 0%, #1a2148 100%);
     }
     .brand{font-size:64px; font-weight:800; letter-spacing:-1px; margin:0 0 8px}
-    .tag{font-size:22px; color:var(--muted); margin:0 0 28px}
+    .tag{font-size:22px; color:var(--muted); margin:0 0 12px}
+    .subtag{font-size:18px; color:var(--muted); margin:0 0 24px}
     .cta{display:flex; gap:12px; flex-wrap:wrap}
     .btn{
       padding:12px 18px; border-radius:10px; font-weight:700; display:inline-block;
       background:#ffffff; color:var(--ink);
     }
     .btn.ghost{background:transparent; outline:1px solid rgba(255,255,255,0.35); color:#fff}
+
+    /* SECTIONS */
     .section{padding:72px 0; background:#121a36}
     .section.alt{background:#0f1530}
-    .h2{font-size:28px; margin:0 0 16px}
+    .h2{font-size:28px; margin:0 0 12px}
     .sub{color:var(--muted); margin:0 0 28px}
+
+    /* CARDS */
     .grid{display:grid; gap:18px; grid-template-columns:repeat(auto-fit,minmax(240px,1fr))}
     .card{background:#0e142d; padding:20px; border-radius:14px; border:1px solid rgba(255,255,255,0.06)}
     .card h3{margin:0 0 8px; font-size:18px}
-    .center{text-align:center}
-    footer{padding:36px 0; color:var(--muted); background:#0b1026}
     .muted{color:var(--muted)}
+    .center{text-align:center}
+
+    /* FOOTER */
+    footer{padding:36px 0; color:var(--muted); background:#0b1026}
   </style>
 </head>
 <body>
@@ -49,9 +58,10 @@
   <header class="hero">
     <div class="wrap">
       <h1 class="brand">awnserly</h1>
-      <p class="tag">Instant answers. Zero clutter.</p>
+      <p class="tag"><strong>Every call answered. Every customer captured.</strong></p>
+      <p class="subtag">Your AI receptionist that greets customers, books appointments, and never misses a ring.</p>
       <div class="cta">
-        <a class="btn" href="mailto:hello@awnserly.com?subject=Join%20the%20Awnserly%20Waitlist">Join the Waitlist</a>
+        <a class="btn" href="mailto:hello@awnserly.com?subject=Get%20Started%20with%20Awnserly">Get Started</a>
         <a class="btn ghost" href="mailto:hello@awnserly.com">Contact Us</a>
       </div>
     </div>
@@ -61,19 +71,19 @@
   <section class="section">
     <div class="wrap">
       <h2 class="h2">What Awnserly does</h2>
-      <p class="sub">Ask once. Get a clear, confident answer you can use right now.</p>
+      <p class="sub">Be there for every customer without adding headcount.</p>
       <div class="grid">
         <div class="card">
-          <h3>Clarity fast</h3>
-          <p class="muted">No fluff—just the answer, straight to the point.</p>
+          <h3>Always available</h3>
+          <p class="muted">No more missed calls. Awnserly picks up 24/7.</p>
         </div>
         <div class="card">
-          <h3>Understands your inputs</h3>
-          <p class="muted">Drop a question, screenshot, or file. We pull out what matters and explain it simply.</p>
+          <h3>Schedules your appointments</h3>
+          <p class="muted">Let Awnserly handle bookings so you can focus on your business.</p>
         </div>
         <div class="card">
-          <h3>Save & share</h3>
-          <p class="muted">Keep answers, copy them cleanly, and revisit anytime.</p>
+          <h3>Never put customers on hold</h3>
+          <p class="muted">Instant answers mean no more waiting or frustration.</p>
         </div>
       </div>
     </div>
