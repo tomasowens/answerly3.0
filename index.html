@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>awnserly — Instant answers. Zero clutter.</title>
+  <style>
+    :root{
+      --bg:#1b2a55;      /* deep navy */
+      --accent:#e24b6a;  /* warm pink/red */
+      --text:#ffffff;
+      --muted:#cfd6e6;
+      --ink:#0f1833;
+    }
+    *{box-sizing:border-box}
+    html,body{margin:0;padding:0;font-family:Inter,system-ui,Arial,sans-serif;color:var(--text);background:var(--bg)}
+    a{color:inherit;text-decoration:none}
+    .wrap{max-width:980px;margin:0 auto;padding:24px}
+    .hero{
+      min-height:88vh; display:flex; align-items:center;
+      background:
+        radial-gradient(1200px 600px at 85% 10%, rgba(226,75,106,0.95), transparent 60%),
+        radial-gradient(900px 500px at -10% 40%, rgba(226,75,106,0.25), transparent 50%),
+        linear-gradient(180deg, #1b2a55 0%, #1a2148 100%);
+    }
+    .brand{font-size:64px; font-weight:800; letter-spacing:-1px; margin:0 0 8px}
+    .tag{font-size:22px; color:var(--muted); margin:0 0 28px}
+    .cta{display:flex; gap:12px; flex-wrap:wrap}
+    .btn{
+      padding:12px 18px; border-radius:10px; font-weight:700; display:inline-block;
+      background:#ffffff; color:var(--ink);
+    }
+    .btn.ghost{background:transparent; outline:1px solid rgba(255,255,255,0.35); color:#fff}
+    .section{padding:72px 0; background:#121a36}
+    .section.alt{background:#0f1530}
+    .h2{font-size:28px; margin:0 0 16px}
+    .sub{color:var(--muted); margin:0 0 28px}
+    .grid{display:grid; gap:18px; grid-template-columns:repeat(auto-fit,minmax(240px,1fr))}
+    .card{background:#0e142d; padding:20px; border-radius:14px; border:1px solid rgba(255,255,255,0.06)}
+    .card h3{margin:0 0 8px; font-size:18px}
+    .center{text-align:center}
+    footer{padding:36px 0; color:var(--muted); background:#0b1026}
+    .muted{color:var(--muted)}
+  </style>
+</head>
+<body>
+
+  <!-- HERO -->
+  <header class="hero">
+    <div class="wrap">
+      <h1 class="brand">awnserly</h1>
+      <p class="tag">Instant answers. Zero clutter.</p>
+      <div class="cta">
+        <a class="btn" href="mailto:hello@awnserly.com?subject=Join%20the%20Awnserly%20Waitlist">Join the Waitlist</a>
+        <a class="btn ghost" href="mailto:hello@awnserly.com">Contact Us</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- WHAT IT DOES -->
+  <section class="section">
+    <div class="wrap">
+      <h2 class="h2">What Awnserly does</h2>
+      <p class="sub">Ask once. Get a clear, confident answer you can use right now.</p>
+      <div class="grid">
+        <div class="card">
+          <h3>Clarity fast</h3>
+          <p class="muted">No fluff—just the answer, straight to the point.</p>
+        </div>
+        <div class="card">
+          <h3>Understands your inputs</h3>
+          <p class="muted">Drop a question, screenshot, or file. We pull out what matters and explain it simply.</p>
+        </div>
+        <div class="card">
+          <h3>Save & share</h3>
+          <p class="muted">Keep answers, copy them cleanly, and revisit anytime.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="section alt center">
+    <div class="wrap">
+      <h2 class="h2">Be an early user</h2>
+      <p class="sub">Get first access, product updates, and a spot in the beta.</p>
+      <a class="btn" href="mailto:hello@awnserly.com?subject=Join%20the%20Awnserly%20Waitlist">Join the Waitlist</a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="wrap">
+      <div class="grid" style="grid-template-columns:1fr auto;">
+        <div>© Awnserly, 2025</div>
+        <div><a href="mailto:hello@awnserly.com">hello@awnserly.com</a></div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
